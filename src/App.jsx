@@ -1,5 +1,6 @@
 import "./App.css";
 import Content from "./components/Content";
+import CounterApp from "./components/CounterApp";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="app">
       <Header user={user} />
       <Content />
+      <CounterApp />
       <Footer user="suganya" />
     </div>
   );
